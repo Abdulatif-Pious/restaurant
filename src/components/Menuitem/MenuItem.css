@@ -1,0 +1,19 @@
+.app__menuitem {
+    margin : 1rem 0;
+}
+
+.app__menuitem-head {
+    display: flex;
+    margin-bottom : 0.5rem;
+}
+
+.app__menuitem-name {
+    flex : 1;
+}
+
+.app__menuitem-dash {
+    width : 80px;
+    height: 1px;
+    background-color: var(--color-golden);
+    margin : 1rem;
+}
