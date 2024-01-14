@@ -13,10 +13,49 @@
 
 .app__gallery-images_container {
     display: flex;
-    overflow : hidden;
-    -ms-overflow-style : none;
-    scrollbar-width : none;
+    overflow-x : auto;
 }
+
+/* Webkit (Chrome, Safari) */
+.app__gallery-images_container::-webkit-scrollbar {
+    width: 40px;
+}
+
+.app__gallery-images_container::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 9999px;
+    height: 200px;
+}
+
+  /* Firefox */
+.app__gallery-images_container::-moz-scrollbar {
+    width: 40px;
+}
+
+.app__gallery-images_container::-moz-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 9999px;
+    height: 20px;
+}
+
+/* Microsoft Edge */
+.app__gallery-images_container::-ms-scrollbar {
+    width: 40px;
+}
+
+.app__gallery-images_container::-ms-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 9999px;
+    height: 20px;
+}
+
+  /* Firefox scrollbar width and color */
+/* .app__gallery-images_container {
+    background-color: #333;
+    border-radius: 9999px;
+    height: 20px;
+} */
+
 
 .app__gallery-images_card  {
     margin : 0 1rem;

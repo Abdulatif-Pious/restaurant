@@ -30,6 +30,7 @@
 
 .app__navbar-login {
     display: flex;
+    align-items: center;
 }
 
 .app__navbar-login a {

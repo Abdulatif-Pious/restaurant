@@ -10,7 +10,9 @@ const Header = () => (
       <SubHeading title="Chase the new flavour" />
       <h1 className="headtext__cormorant">The Key To Fine Dining</h1>
       <p className="p__opensans" style={{ margin: '2rem 0' }}>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
-      <button type="button" className="custom__button">Explore Menu</button>
+      <button type="button" className="custom__button">
+        <a href="#menu">Explore Menu</a>
+      </button>
     </div>
 
     <div className="app__wrapper_img">
